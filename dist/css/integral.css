@@ -1,0 +1,49 @@
+
+.head{
+	padding:.32rem .15rem;
+	background:#070707;
+}
+.head h3{
+	font:.12rem/.23rem '微软雅黑';
+	color:#d4c497;
+}
+.head h2{
+	font:.33rem/.48rem '微软雅黑';
+	color:#d4c497;
+	font-weight:bold;
+}
+.integral_inf{
+	padding:0 .15rem;
+}
+.integral_inf h2{
+    padding-left:.14rem;
+    position:relative;
+    font:.15rem/.36rem '微软雅黑';
+}
+.integral_inf h2:before{
+    content:'';
+    display:block;
+    width:.05rem;
+    height:.05rem;
+    background:#b8a266;
+    position:absolute;
+    top:50%;
+    left:0;
+    margin-top:-.025rem;
+}
+.integral_inf p{
+    padding-left:.14rem;
+    position:relative;
+    font:.12rem/.17rem '微软雅黑';
+    color:#c6c6c6;
+}
+.confirm_btn{
+	display:block;
+	width:90%;
+	margin:1rem auto 0;
+	font:.15rem/.45rem '微软雅黑';
+	color:#d4c497;
+	text-align:center;
+	background:#323232;
+	border:none;
+}

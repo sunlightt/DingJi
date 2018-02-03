@@ -1,0 +1,327 @@
+
+.parent header{
+	position:relative;
+	padding:0 .2rem 1.16rem;
+	background:#0f0d0e;
+}
+.parent header .head_msg{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+	flex-wrap:wrap;
+}
+.parent header .head_msg h2{
+	flex:6;
+	padding-left:.24rem;
+	font:.17rem/.63rem '微软雅黑';
+	color:#dec08f;
+	background:url('../img/icon6.png') no-repeat left center; 
+	background-size:.17rem;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	text-overflow:ellipsis;
+}
+.parent header .head_msg span{
+	flex:4;
+	font:.09rem/.63rem '微软雅黑';
+	color:#dec08f;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	text-overflow:ellipsis;
+}
+.pro_poster{
+	position:absolute;
+	top:.63rem;
+	left:0; 
+	right:0;
+	padding:0 .2rem;
+}
+.pro_poster img{
+	display:block;
+	width:100%;
+	height:1.9rem;
+	box-shadow:0 .03rem .08rem #c5c5c5;
+}
+
+/*content*/
+.content{
+    padding:1rem .15rem 0;
+}
+.content .sort_list{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	padding:0 .06rem .25rem;
+	
+}
+.content .sort_list li{
+	width:20%;
+	text-align:center;
+}
+.content .sort_list li a{
+	display:block;
+	width:100%;
+}
+.content .sort_list li .icon{
+	display:inline-block;
+	width:.27rem;
+	height:.25rem;
+}
+.content .sort_list li h2{
+	font:.11rem/.18rem '微软雅黑';
+	color:#2d2d2d;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	text-overflow:ellipsis;
+	padding-top:.1rem;
+}
+.content .sort_list li p{
+	font:.08rem/.18rem '微软雅黑';
+	color:#c9c9c9;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	text-overflow:ellipsis;
+}
+
+.act_list .section{
+	padding:.2rem 0 .3rem;
+	border-top:1px solid #e4e4e4;
+}
+.act_list .section .option_title{
+	padding-left:.2rem;
+	background:url('../img/icon7.png') no-repeat left top;
+	background-size:.12rem .18rem;
+}
+.act_list .option1 .option_title{
+	background:url('../img/details_icon4.png') no-repeat left top;
+	background-size:.12rem .18rem;
+}
+.act_list .option2 .option_title{
+	background:url('../img/details_icon12.png') no-repeat left top;
+	background-size:.12rem .18rem;
+}
+.act_list .option3 .option_title{
+	background:url('../img/details_icon9.png') no-repeat left top;
+	background-size:.12rem .18rem;
+}
+.act_list .option4 .option_title{
+	background:url('../img/details_icon5.png') no-repeat left top;
+	background-size:.12rem .18rem;
+}
+
+
+
+.act_list .section .option_title h2{
+	font:.15rem/.18rem '微软雅黑';
+	color:#444;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	text-overflow:ellipsis;
+}
+.act_list .section .option_title p{
+	font:.07rem/.16rem 'Arial', "微软雅黑" ;
+	color:#cacaca;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	text-overflow:ellipsis;
+}
+.act_list .section .option_msg{
+	padding:.08rem .06rem 0 .06rem;
+}
+.act_list .section .option_msg p{
+	font:.12rem/.2rem '微软雅黑';
+	color:#969696; 
+}
+.act_list .option1 .option_msg p{
+	padding-left:.06rem;
+}
+
+
+.act_list .section .option_msg .process{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	padding:.23rem 0 .19rem 0;
+}
+.act_list .section .option_msg .process li{
+	width:25%;
+	text-align:center;
+}
+.act_list .section .option_msg .process li img{
+	display:inline-block;
+	width:.2rem;
+	heigh:.2rem;
+}
+.act_list .section .option_msg .process li p{
+	font:.1rem/.29rem '微软雅黑';
+	color:#605e5e;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	text-overflow:ellipsis;
+}
+.act_list .section .option_msg .option_msg_list li{
+	position:relative;
+	padding:.03rem 0 0 .18rem;
+}
+.act_list .section .option_msg .option_msg_list li:before{
+	content:'';
+	display:block;
+	width:.05rem;
+	height:.05rem;
+	background:#e2d2a6;
+	position:absolute;
+	top:.1rem;
+	left:0;
+}
+.act_list .section .option_msg_main h3{
+	color:#3e3e3e;
+	padding-top:.05rem;
+}
+.act_list .section .option_msg_main p{
+	font:.12rem/.29rem '微软雅黑';
+	color:#6b6b6b;
+	padding-top:.16rem;
+}
+
+.msg_tip{
+	font:.13rem/.2rem '微软雅黑';
+	color:#f5a9a9;
+	padding:0 .06rem .25rem;
+}
+.replay{
+    display:block;
+    width:100%;
+    font:.15rem/.5rem '微软雅黑';
+    color:#d4c497;
+    text-align:center;
+    background:#323232; 
+    border:none;
+    z-index:100;
+    position:relative;
+}
+
+
+/*选择时间蒙版*/
+.mark{
+   position:fixed;
+   top:0;
+   bottom:0;
+   left:0;
+   right:0;
+   background:rgba(178,178,178,.5);
+   z-index:66;
+   opacity:0;
+   filter:alpha(opacity=0);
+   display:none;
+}
+.mark_show{
+   opacity:1;
+   filter:alpha(opacity=100);
+   display:block;
+}
+.mark .select_time{
+   position:absolute;
+   bottom:-90%;
+   left:0;
+   right:0;
+   padding:0 .15rem .18rem;
+   background:#1a1a1a;
+   opacity:1;
+   filter:alpha(opacity=100);
+   transition:all .5s ease-in-out;
+}
+.mark_show .select_time{
+   bottom:0;
+   opacity:1;
+   filter:alpha(opacity=100);
+   z-index:9999;
+}
+.mark .select_time .select_head{
+   position:relative;
+   padding-right:.3rem;	
+   border-bottom:1px solid #d4c497;
+}
+.mark .select_time .select_head h2{
+   font:.15rem/.61rem '微软雅黑';
+   color:#d4c497;
+   padding-left:.18rem;
+   background:url('../img/icon9.png') no-repeat left center;
+   background-size:.14rem;
+}
+.mark .select_time .select_head .close_btn{
+   position:absolute;
+   top:0;
+   right:0;
+   width:.3rem;
+   height:.61rem;
+}
+.mark .select_time .select_head .close_btn img{
+   display:block;
+   width:.15rem;
+   margin-top:.22rem;	
+}
+.mark .select_time .time_list{
+   height:1.89rem;
+   overflow-y:scroll;
+}
+.mark .select_time .time_list li{
+   border-top:1px solid #615b4a;
+}
+.mark .select_time .time_list li:first-child{
+   border-top:none;
+}
+.mark .select_time .time_list li label{
+   display:block;
+   padding-right:.2rem;
+   position:relative;
+}
+.mark .select_time .time_list li label span{
+	display:inline-block;
+	font:.15rem/.61rem '微软雅黑';
+	color:#fff;
+}
+.mark .select_time .time_list li label span em{
+	display:inline-block;
+	color:#d4c497;
+}
+.mark .select_time .confirm_btn{
+	display:block;
+	width:100%;
+	font:.15rem/.45rem '微软雅黑';
+	color:#fff;
+	text-align:center;
+	background:#d4c497;
+	border:none;
+	margin-top:.18rem;
+} 
+.mark .select_time .time_list .select_btn{
+	display:inline-block;
+	width:.17rem;
+	height:.17rem;
+	border-radius:50%;
+	position:absolute;
+	top:50%;
+	right:0;
+	margin-top:-.08rem;
+	background:url('../img/check.png') no-repeat center;
+	background-size:.17rem;
+}
+.mark .select_time .time_list .checked{
+	background:url('../img/checked.png') no-repeat center;
+	background-size:.17rem;
+}

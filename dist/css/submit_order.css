@@ -1,0 +1,170 @@
+.parent{
+	padding-bottom:.5rem;
+}
+body{
+	min-height:100%;
+	background:#f3f3f3;
+}
+.pro_inf{
+	padding:0 .15rem;
+	background:#fff;
+}
+.pro_inf li{
+	padding:.02rem 0 .16rem;
+	border-top:1px solid #e7e7e7;
+}
+.pro_inf li:first-child{
+	border-top:none;
+}
+.pro_inf li .title{
+	padding-left:.27rem;
+	font:.15rem/.48rem '微软雅黑';
+	color:#7f7f7f;
+	background:url('../img/icon10.png') no-repeat left center;
+	background-size:.18rem .19rem;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	text-overflow:ellipsis;
+	position:relative;
+}
+.pro_inf li:nth-child(2) .title{
+	background:url('../img/order_icon5.png') no-repeat left center;
+	background-size:.18rem .19rem;
+}
+.pro_inf li:nth-child(3) .title{
+	background:url('../img/order_icon4.png') no-repeat left center;
+	background-size:.18rem .19rem;
+}
+.pro_inf li:nth-child(4) .title{
+	background:url('../img/order_icon.png') no-repeat left center;
+	background-size:.18rem .19rem;
+}
+.pro_inf li:nth-child(5) .title{
+	background:url('../img/order_icon1.png') no-repeat left center;
+	background-size:.18rem .19rem;
+}
+.pro_inf li:nth-child(2) .title{
+	background:url('../img/order_icon5.png') no-repeat left center;
+	background-size:.18rem .19rem;
+}
+.pro_inf li h2{
+	padding-left:.27rem;
+	font:.2rem/.33rem '微软雅黑';
+	color:#3d3d3d;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	text-overflow:ellipsis;
+}
+.pro_inf li .person_inf{
+	padding-left:.27rem;
+}
+.pro_inf li .person_inf .inf_item{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+.pro_inf li .person_inf .inf_item .inf_item_left{
+	display:block;
+	flex:3;
+	font:.15rem/.31rem '微软雅黑';
+	color:#565656;
+}
+.pro_inf li .person_inf .inf_item .inf_item_right{
+	display:block;
+	flex:6;
+	font:.15rem/.31rem '微软雅黑';
+	color:#565656;
+}
+.pro_inf li .agreement {
+    background:none;
+}
+.pro_inf li .agreement .check_btn{
+	width:.16rem;
+	height:.16rem;
+	position:absolute;
+	top:50%;
+	left:0;
+	margin-top:-.08rem;
+	background:url('../img/check1.png') no-repeat center;
+	background-size:contain;
+}
+.pro_inf li .agreement .checked , .pro_inf li .intergral .checked{
+	background:url('../img/check1ed.png') no-repeat center;
+	background-size:contain;
+}
+
+ .pro_inf li .intergral{
+ 	padding-right:.25rem;
+ } 
+ .pro_inf li .intergral .check_btn{
+ 	width:.16rem;
+	height:.16rem;
+	position:absolute;
+	top:50%;
+	right:0;
+	margin-top:-.08rem;
+	background:url('../img/check1.png') no-repeat center;
+	background-size:contain;
+ }
+.pro_inf li .pay{
+	background:url('../img/pay_icon.png') no-repeat left center;
+	background-size:.18rem .19rem;
+}
+.pro_inf li .pay2{
+	background:url('../img/order_icon7.png') no-repeat left center;
+	background-size:.18rem .19rem;
+}
+.pro_inf li .pay{
+ 	padding-right:.25rem;
+} 
+.pro_inf li .pay .check_btn{
+	right:0;
+	background: url(../img/check2.png) no-repeat center;
+    background-size: contain;
+}
+.pro_inf li .pay .checked{
+	right:0;
+	background: url(../img/check2ed.png) no-repeat center;
+    background-size: contain;
+}
+.msg_tip{
+	padding:.2rem .1rem 0;
+}
+.msg_tip h2{
+	font:.13rem/.37rem '微软雅黑';
+	color:#f75050;
+}
+.msg_tip p{
+	font:.11rem/.16rem '微软雅黑';
+	color:#f75050;
+	padding-right:.33rem;
+}
+.foot{
+	position:fixed;
+	bottom:0;
+	left:0;
+	right:0;
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	z-index:9999;
+}
+.foot .total{
+	flex:7;
+	padding-left:.44rem;
+	font:.15rem/.5rem '微软雅黑';
+	color:#3d3d3d;
+	background:#fff url('../img/intergrall.png') no-repeat .15rem center;
+	background-size:.18rem .16rem;
+}
+.foot .pay{
+	flex:3;
+	padding-left:.44rem;
+	font:.15rem/.5rem '微软雅黑';
+	color:#d4c497;
+	background:#323232;
+}

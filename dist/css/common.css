@@ -1,0 +1,279 @@
+@charset "UTF-8";
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body,
+small,
+sup,
+sub,
+button,
+input,
+textarea,
+select {
+    font-size: 12px;
+    font-family: Arial, Helvetica, verdana, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+address,
+cite,
+dfn,
+em,
+var {
+    font-size: normal;
+}
+
+sub,
+sup {
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -3px;
+}
+
+sub {
+    bottom: -3px;
+}
+
+button {
+    padding: 5px 10px;
+    overflow: visible;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+a,
+button,
+input,
+optgroup,
+select,
+textarea {
+    -webkit-tap-highlight-color: transparent;
+    /*去掉a、input和button点击时的蓝色外边框和灰色半透明背景*/
+}
+
+a,
+img {
+    -webkit-touch-callout: none;
+    /*禁止长按链接与图片弹出菜单*/
+}
+
+i,
+p,
+a {
+    word-break: break-all;
+    vertical-align: middle;
+}
+
+strong,
+em,
+b,
+i {
+    font-style: normal;
+    font-weight: normal;
+}
+
+input,
+select,
+textarea {
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    /* appearance: none; */
+    /* -moz-appearance: none; */
+    /* -webkit-appearance: none; */
+    background-image: -webkit-linear-gradient(transparent, transparent);
+    background-image: linear-gradient(transparent, transparent);
+}
+
+html {
+    -webkit-text-size-adjust: none;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    margin: 0 auto;
+    color: #575757;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    -webkit-overflow-scrolling: touch;
+}
+
+.clearfix:before {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+/*input[type="search"]{-webkit-appearance:none;} */
+input::-webkit-search-cancel-button {display: none;}
+
+a{
+    color:#575757;
+    text-decoration:none;
+}
+
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.swiper-slide a , .swiper-slide a img{
+    display:block;
+    width:100%;
+}
+
+.swiper-pagination-bullet{
+	background:none;
+	border:1px solid #888889;
+}
+.swiper-pagination-bullet-active {
+	background:#d0af84;
+}
+
+.swiper-button-next , .swiper-button-prev{
+	display:none;
+}
+
+
+/*footer*/
+.footer{
+	position:fixed;
+	left:0;
+	right:0;
+	bottom:0;
+	background:#fff;
+	z-index:100;
+	border-top:1px solid #e4e4e4;
+	padding-top:.05rem;
+}
+.footer ul{
+	display:flex;
+	flex-direction:row;
+	-ms-flex-direction: row;
+	-webkit-flex-direction:row;
+	justify-content:space-between;
+    flex-wrap:wrap;	
+}
+.footer ul li {
+	width:25%;
+	text-align:center;
+	display:flex;
+	flex-direction:column;
+	-ms-flex-direction: column;
+	-webkit-flex-direction:column;
+	justify-content:center;
+    flex-wrap:wrap;	
+}
+.footer ul li a{
+	display:inline-block;
+}
+.footer ul li a img{
+	display:block;
+	width:.22rem;
+	margin:0 auto;
+}
+.footer ul  li span{
+	display:inline-block;
+	font:.12rem/.2rem '微软雅黑'; 
+	color:#3f3f3f;
+}
+
+

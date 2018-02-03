@@ -1,0 +1,128 @@
+
+.parent{
+	padding-bottom:.4rem;
+}
+.parent .tab{
+	border-bottom:1px solid #ddd;
+}
+.parent .tab ul{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+.parent .tab  ul li{
+    flex:5;
+    text-align:center;
+}
+.parent .tab  ul li span{
+	display:inline-block;
+	height:.41rem;
+	font:.14rem/.41rem '微软雅黑';
+	color:#2d2d2d;
+	border-bottom:1px solid transparent;
+}
+.parent .tab  ul .active span{
+	color:#d4c497;
+	border-bottom:1px solid #d4c497;
+}
+.order_list{
+	background:#f6f6f6;
+	padding:.11rem 0 .01rem;
+}
+.order_list ul li{
+	border-top:1px solid #d4c497;
+	border-bottom:1px solid #d4c497;
+	margin-bottom:.11rem;
+}
+.order_list ul li .top{
+    padding:0 .15rem;
+    background:#fff;
+}
+.order_list ul li .top .title{
+	position:relative;
+	padding-right:.5rem;
+	height:.39rem;
+	font:.15rem/.39rem '微软雅黑';
+	color:#2d2d2d;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	text-overflow:ellipsis;
+}
+.order_list ul li .top .title .refund{
+	display:block;
+	width:.48rem;
+	height:.22rem;
+	font:.12rem/.22rem '微软雅黑';
+	color:#d4c497;
+	text-align:center;
+	border-radius:.04rem;
+	background:#323232;
+	position:absolute;
+	top:50%;
+	right:0;
+	margin-top:-.11rem;
+}
+.order_list ul li .top .title .refunded{
+	color:#f43e5c;
+	background:none;
+}
+.order_list ul li .pro_msg{
+	padding:.1rem .15rem .05rem;
+}
+.order_list ul li .pro_msg a{
+	display:block;
+	padding-left:.7rem;
+	position:relative;
+}
+.order_list ul li .pro_msg a img{
+	display:block;
+	width:.7rem;
+	height:.7rem;
+	position:absolute;
+	top:50%;
+	left:0;
+	margin-top:-.35rem;
+}
+.order_list ul li .pro_msg a .msg_inf{
+	padding-left:.09rem;
+}
+.order_list ul li .msg_inf .sub_title{
+	height:.2rem;
+	font:.14rem/.2rem '微软雅黑';
+	color:#949494;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	text-overflow:ellipsis;
+}
+.order_list ul li .msg_inf .site{
+	font:.13rem/.3rem '微软雅黑';
+	color:#949494;
+}
+.order_list ul li .msg_inf .site em{
+	display:inline-block;
+	font:.13rem/.3rem '微软雅黑';
+	color:#949494;
+	float:right;
+}
+.order_list ul li .msg_inf .price{
+	font:.14rem/.24rem '微软雅黑';
+	color:#d4c497;
+}
+.order_list ul li .msg_inf .price em{
+	font:.14rem/.24rem '微软雅黑';
+	color:#d4c497;
+	float:right;
+}
+.order_list ul li .order_inf{
+	display:block;
+	padding:0 .15rem;
+	font:.13rem/.39rem '微软雅黑';
+	color:#d4c497;
+	text-align:right;
+	background:#fff;
+}

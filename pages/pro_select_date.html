@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<title>选择日期</title>
+		<link rel="stylesheet" href="../dist/css/common.css" />
+		<link rel="stylesheet" href="../dist/plugin/css/swiper.min.css">
+		<link rel="stylesheet" href="../dist/css/pro_select_date.css">
+	</head>
+	<body>
+		<div class="parent">
+			<header>
+				<div class="head_msg date_msg">
+					<!--<h2>演出比赛</h2>
+					<span>2500~5000元</span>-->
+					<ul class="date_list clearfix">
+						<!--<li>
+							<strong>1月10日</strong>
+							<em>今天</em>
+						</li>
+						<li>
+							<strong>1月11日</strong>
+							<em>星期四</em>
+						</li>
+						<li>
+							<strong>1月11日</strong>
+							<em>星期四</em>
+						</li>
+						<li>
+							<strong>1月11日</strong>
+							<em>星期四</em>
+						</li>
+						<li>
+							<strong>1月11日</strong>
+							<em>星期四</em>
+						</li>-->
+					</ul>
+				</div>
+				<!--候选时间-->
+				<div class="pro_poster candidate_time">
+					<ul class="time_list">
+						<li>
+							<span class="time_statusd">
+								<strong class="active">12:00</strong>
+								<em>剩余机位:6</em>
+							</span>
+							<span class="alrady_reserved" style="display:none;">已预约</span>
+						</li>
+						<li>
+							<span class="time_statusd">
+								<strong>12:00</strong>
+								<em>剩余机位:6</em>
+							</span>
+							<span class="alrady_reserved" style="display:none;">已预约</span>
+						</li>
+						<li>
+							<span class="time_statusd">
+								<strong>12:00</strong>
+								<em>剩余机位:6</em>
+							</span>
+							<span class="alrady_reserved" style="display:none;">已预约</span>
+						</li>
+						<li>
+							<span class="time_statusd">
+								<strong>12:00</strong>
+								<em>剩余机位:6</em>
+							</span>
+							<span class="alrady_reserved" style="display:none;">已预约</span>
+						</li>
+						<li>
+							<span class="time_statusd" style="display:none;">
+								<strong>12:00</strong>
+								<em>剩余机位:6</em>
+							</span>
+							<span class="alrady_reserved">已预约</span>
+						</li>
+						<li>
+							<span class="time_statusd" style="display:none;">
+								<strong>12:00</strong>
+								<em>剩余机位:6</em>
+							</span>
+							<span class="alrady_reserved">已预约</span>
+						</li>
+						<li>
+							<span class="time_statusd" style="display:none;">
+								<strong>12:00</strong>
+								<em>剩余机位:6</em>
+							</span>
+							<span class="alrady_reserved">已预约</span>
+						</li>
+						<li>
+							<span class="time_statusd" style="display:none;">
+								<strong>12:00</strong>
+								<em>剩余机位:6</em>
+							</span>
+							<span class="alrady_reserved">已预约</span>
+						</li>
+						<li>
+							<span class="time_statusd">
+								<strong>12:00</strong>
+								<em>剩余机位:6</em>
+							</span>
+							<span class="alrady_reserved" style="display:none;">已预约</span>
+						</li>
+						<li>
+							<span class="time_statusd">
+								<strong>12:00</strong>
+								<em>剩余机位:6</em>
+							</span>
+							<span class="alrady_reserved" style="display:none;">已预约</span>
+						</li>
+						<li>
+							<span class="time_statusd">
+								<strong>12:00</strong>
+								<em>剩余机位:6</em>
+							</span>
+							<span class="alrady_reserved" style="display:none;">已预约</span>
+						</li>
+						<li>
+							<span class="time_statusd">
+								<strong>12:00</strong>
+								<em>剩余机位:6</em>
+							</span>
+							<span class="alrady_reserved" style="display:none;">已预约</span>
+						</li>
+						<li>
+							<span class="time_statusd">
+								<strong>12:00</strong>
+								<em>剩余机位:6</em>
+							</span>
+							<span class="alrady_reserved" style="display:none;">已预约</span>
+						</li>
+						<li>
+							<span class="time_statusd">
+								<strong>12:00</strong>
+								<em>剩余机位:6</em>
+							</span>
+							<span class="alrady_reserved" style="display:none;">已预约</span>
+						</li>
+						<li>
+							<span class="time_statusd">
+								<strong>12:00</strong>
+								<em>剩余机位:6</em>
+							</span>
+							<span class="alrady_reserved" style="display:none;">已预约</span>
+						</li>
+						<li>
+							<span class="time_statusd">
+								<strong>12:00</strong>
+								<em>剩余机位:6</em>
+							</span>
+							<span class="alrady_reserved" style="display:none;">已预约</span>
+						</li>
+					</ul>
+				</div>
+			</header>
+			<!--内容区-->
+			<main class="content">
+				<button class="replay">确定</button>
+			    <article class="msg_tip">
+			    	<h2>温馨提示</h2>
+			    	<p>1、预约成功24小时内，可对预约活动时间进行一次修改；</p>
+			    	<p>2、活动开始时间24小时以外取消订单，可享受全额退款；</p>
+			    	<p>3、活动开始时间24小时以内取消订单，需支付订单金额的30%作为违约金</p>
+			    </article>
+			</main>
+		</div>
+		
+		<!--时间选取-->
+		<div class="mark">
+			<!--选择时间-->
+			<div class="select_time">
+				<div class="select_head">
+					<h2>请选择时间</h2>
+					<span class="close_btn">
+			    	 	<img src="../dist/img/close.png" alt="" />
+			    	 </span>
+				</div>
+				<div class="time_list">
+					<ul>
+						<li>
+							<label>
+			    				<span>1 <em>个机位</em></span>
+			    			    <strong class="select_btn checked">、
+			    			        <input type="checkbox"  name="date" hidden/>
+			    			    </strong>
+			    			</label>
+						</li>
+						<li>
+							<label>
+			    				<span>2 <em>个机位</em></span>
+			    				<strong class="select_btn">、
+			    			        <input type="checkbox"  name="date" hidden/>
+			    			    </strong>
+			    			</label>
+						</li>
+						<li>
+							<label>
+			    				<span>2 <em>个机位</em></span>
+			    				<strong class="select_btn">、
+			    			        <input type="checkbox"  name="date" hidden/>
+			    			    </strong>
+			    			</label>
+						</li>
+						<li>
+							<label>
+			    				<span>2 <em>个机位</em></span>
+			    				<strong class="select_btn">、
+			    			        <input type="checkbox"  name="date" hidden/>
+			    			    </strong>
+			    			</label>
+						</li>
+					</ul>
+				</div>
+				<button class="confirm_btn">确定</button>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="../dist/js/common.js"></script>
+	<script type="text/javascript" src="../dist/js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="../dist/plugin/js/swiper.min.js"></script>
+	<script type="text/javascript" src="../dist/js/pro_select.date.js"></script>
+</html>
